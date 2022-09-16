@@ -1,0 +1,51 @@
+{
+  "catalogs": [
+    {
+      "role": "admin",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "group": "gp_adm",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "group": "gp_user",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "catalog": "system",
+      "allow": "all"
+    }
+  ],
+  "schemas": [
+    {
+      "role": "admin",
+      "schema": ".*",
+      "owner": true
+    },
+    {
+      "group": "gp_user",
+      "schema": ".*",
+      "owner": true
+    }
+  ],
+  "tables": [
+    {
+      "role": "admin",
+      "privileges": ["SELECT","INSERT","DELETE","UPDATE","OWNERSHIP"]
+    },
+    {
+      "group": "gp_adm",
+      "table": ".*",      
+      "privileges": ["SELECT","INSERT","DELETE","UPDATE","OWNERSHIP"]
+    },
+    {
+      "group": "gp_user",
+      "table": ".*",      
+      "privileges": ["SELECT","INSERT","DELETE","UPDATE","OWNERSHIP"]
+    }
+  ]
+}

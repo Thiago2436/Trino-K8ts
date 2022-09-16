@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tcb-trino
+  namespace: dados
+  labels:
+    app: trino
+    chart: trino-0.2.0
+    release: tcb
+    heritage: Helm
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8080
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: trino
+    release: tcb
+    component: coordinator

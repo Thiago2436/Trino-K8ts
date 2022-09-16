@@ -1,0 +1,23 @@
+NAMESPACE                    NAME                                   CLASS    HOSTS                                                                         ADDRESS         PORTS     AGE
+default                      echoserver                             <none>   echoserver.dev.nexu.cloud                                                     157.230.72.84   80, 443   174d
+default                      keycloak                               <none>   keycloak.dev.nexu.cloud                                                       157.230.72.84   80, 443   2y18d
+gitlab-auth-server           production-auto-deploy                 <none>   auth-server.dev.nexu.cloud,le-14071956.dev.nexu.cloud                         157.230.72.84   80, 443   126d
+gitlab-cadastro              production-auto-deploy                 <none>   cadastro.dev.nexu.cloud,le-21012142.dev.nexu.cloud                            157.230.72.84   80, 443   112d
+gitlab-caweb-integrations    production-auto-deploy                 <none>   caweb-integrations.dev.nexu.cloud,le-12511062.dev.nexu.cloud                  157.230.72.84   80, 443   126d
+gitlab-caweb                 production-auto-deploy                 <none>   caweb.dev.nexu.cloud,le-10283921.dev.nexu.cloud                               157.230.72.84   80, 443   126d
+gitlab-caweb                 review-create-sto-yu2sj4-auto-deploy   nginx    10283921-review-create-sto-yu2sj4.dev.nexu.cloud,le-10283921.dev.nexu.cloud   157.230.72.84   80, 443   79d
+gitlab-caweb                 review-eprod-814-120b6g-auto-deploy    <none>   10283921-review-eprod-814-120b6g.dev.nexu.cloud,le-10283921.dev.nexu.cloud    157.230.72.84   80, 443   58d
+gitlab-caweb                 review-feature-lo-5gqlht-auto-deploy   <none>   10283921-review-feature-lo-5gqlht.dev.nexu.cloud,le-10283921.dev.nexu.cloud   157.230.72.84   80, 443   64d
+gitlab-caweb                 review-fix-user-p-7fai0m-auto-deploy   <none>   10283921-review-fix-user-p-7fai0m.dev.nexu.cloud,le-10283921.dev.nexu.cloud   157.230.72.84   80, 443   86d
+gitlab-caweb                 review-update-sto-g255xu-auto-deploy   <none>   10283921-review-update-sto-g255xu.dev.nexu.cloud,le-10283921.dev.nexu.cloud   157.230.72.84   80, 443   44d
+gitlab-key-translator        production-auto-deploy                 <none>   key-translator.dev.nexu.cloud,le-21297648.dev.nexu.cloud                      157.230.72.84   80, 443   120d
+gitlab-nataxa                production-auto-deploy                 <none>   nataxa.dev.nexu.cloud,le-17567149.dev.nexu.cloud                              157.230.72.84   80, 443   127d
+gitlab-nataxa                review-fix-logs-5x42zs-auto-deploy     <none>   17567149-review-fix-logs-5x42zs.dev.nexu.cloud,le-17567149.dev.nexu.cloud     157.230.72.84   80, 443   112d
+gitlab-nataxa                review-multiplasa-f3f2h6-auto-deploy   <none>   17567149-review-multiplasa-f3f2h6.dev.nexu.cloud,le-17567149.dev.nexu.cloud   157.230.72.84   80, 443   3d17h
+gitlab-notification          production-auto-deploy                 <none>   notification.dev.nexu.cloud,le-17721129.dev.nexu.cloud                        157.230.72.84   80, 443   126d
+gitlab-vspague-db-api        production-auto-deploy                 <none>   vspague-db-api.dev.nexu.cloud,le-21431969.dev.nexu.cloud                      157.230.72.84   80, 443   126d
+gitlab-zendesk-integration   production-auto-deploy                 <none>   zendesk-integration.dev.nexu.cloud,le-28325064.dev.nexu.cloud                 157.230.72.84   80, 443   126d
+loki                         loki                                   <none>   loki.dev.nexu.cloud                                                           157.230.72.84   80, 443   520d
+loki                         loki-grafana                           <none>   grafana.dev.nexu.cloud                                                        157.230.72.84   80, 443   618d
+rundeck                      rundeck-ingress                        <none>   rundeck.dev.nexu.cloud                                                        157.230.72.84   80, 443   666d
+sonarqube                    sonarqube-sonarqube                    <none>   sonarqube.dev.nexu.cloud                                                      157.230.72.84   80, 443   701d

@@ -22,15 +22,15 @@ projeto de implantação do trino em kubernets
       <p>Este projeto fornece os arquivos YAML necessários para implantar o Trino no Kubernetes.</p>
     </section>
 
-    <section>
+   
       <h2>Instruções de Instalação</h2>
       <ol>
         <li>Clone este repositório.</li>
         <li>Implante os arquivos YAML fornecidos no Kubernetes.</li>
       </ol>
-    </section>
+   
 
-    <section>
+   
       <h2>Como Implantar</h2>
       <p>Siga estes passos para implantar o Trino no Kubernetes:</p>
       <pre>
@@ -43,7 +43,7 @@ $ kubectl apply -f statefulsets.yaml
 $ kubectl apply -f ingress.yaml
         </code>
       </pre>
-    </section>
+   
   </main>
 
   <footer>

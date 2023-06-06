@@ -1,5 +1,4 @@
-# Trino-K8ts
-projeto de implantação do trino em kubernets
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -7,11 +6,13 @@ projeto de implantação do trino em kubernets
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Implantação do Trino no Kubernetes</title>
+  
 </head>
 
 <body>
   <header>
+    # Trino-K8ts
+projeto de implantação do trino em kubernets
     <h1>Implantação do Trino no Kubernetes</h1>
   </header>
 

@@ -15,7 +15,7 @@
 projeto de implantação do trino em kubernets
     <h1>Implantação do Trino no Kubernetes</h1>
   </header>
-
+ ---
      
       <h2> # Visão Geral do Projeto</h2>
       <p>Este projeto fornece os arquivos YAML necessários para implantar o Trino no Kubernetes.</p>
@@ -32,7 +32,8 @@ projeto de implantação do trino em kubernets
    
       <h2>Como Implantar</h2>
       <p>Siga estes passos para implantar o Trino no Kubernetes:</p>
-      <pre>
+
+    <br>
         <code>
 $ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 $ cd nome-do-repositorio

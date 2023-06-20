@@ -17,10 +17,10 @@ projeto de implantação do trino em kubernets
   </header>
 
   <main>
-    <section>
+   
       <h2>Visão Geral do Projeto</h2>
       <p>Este projeto fornece os arquivos YAML necessários para implantar o Trino no Kubernetes.</p>
-    </section>
+   
 
    
       <h2>Instruções de Instalação</h2>

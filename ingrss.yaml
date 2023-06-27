@@ -23,3 +23,5 @@ spec:
     - hosts:
         - example.com
           #secretName: my-tls-secret
+
+          #tutorial link : https://pt.linux-console.net/?p=7724#gsc.tab=0
